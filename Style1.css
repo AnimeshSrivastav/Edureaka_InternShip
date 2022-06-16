@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+
+
+*{margin: 0;padding: 0;}
+header{
+    background-image: url(./Images//kyle-head-PW8K-W-Kni0-unsplash.jpg);
+    height: 50vh;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.nav_link{
+    display: flex;
+    justify-content:flex-end;
+}
+.aap{
+    margin: 1rem auto 2rem 2rem;
+}
+.nav_link button{
+    background-color: rgba(214, 79, 79,1);
+    border: none;
+    color: aliceblue;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.nav_link button:hover{
+    background-color: rgba(214, 79, 79,0.8);
+    cursor: pointer;
+}
+
+.nav_link ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+    padding: 5px 5px;
+    transition: all 0.3s ease 0s;
+}
+.nav_link ul li a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.nav_link ul li:hover{
+    background-color: rgba(214, 79, 79,0.8);
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+.name{
+    color: aliceblue;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+.box{
+    width: 100%;
+    text-align:center;
+    margin: 10px;
+    
+}
+
+.box input{
+    width: 500px;
+    border:1px solid rgb(214, 79, 79);
+    border-radius: 10px;
+    padding: 5px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.wrap {
+    height: 50vh;
+    width: 30vw;
+    border: 1px solid #aaa;
+    margin: 10px;
+    display: flex;
+  }
+  .cards a{
+    text-decoration: none;
+  }
+  .wrap div {
+    background-color: aliceblue;
+    align-self: flex-end;
+    height: 10vh;
+    width: 35vw;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow:hidden;
+  }
+  .wrap div p{
+    font-size: 1.3rem;
+    text-align: center;
+    color:black;
+    margin: auto auto;
+    padding: auto auto;
+  }
+
+.cards a div h5{
+    text-align: center;
+    background-color: aliceblue;
+    text-align:justify;
+    border-radius: 5px;
+}
+.fav{
+    display: flex;
+    justify-content:space-around;
+}
+.carousel-control-prev-icon:hover , .carousel-control-next-icon:hover{
+ background-color: rgb(214, 79, 79);
+border-radius: 10px;
+
+}
+.carousel-item img{
+        border: 1px solid rgb(214, 79, 79);
+    border-radius: 20px;
+    height: 300px;
+    width: 380px;
+    margin:10px 20px;
+   
+}
+footer{
+   background-color: rgba(214, 79, 79,0.8);
+}
+.arrange{
+    display: flex;
+    justify-content: flex-start;
+}
+.arrange ul{
+    margin: 10px 10px;
+}
+.arrange ul li{
+    list-style: none;
+    padding: 1vh 2vw;
+
+}
+.arrange ul li a{
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+.zom{
+   color: aliceblue;
+   font-size: 1.3rem;
+   font-family: 'Open Sans', sans-serif;
+   margin: 5px 10px;
+}
+
+.links{
+   margin-left: auto;
+}
+.links li{
+    color:aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    padding: 2px
+}
+.links li a{
+    display: inline-block;
+    height:30px;
+    width: 30px;
+}
