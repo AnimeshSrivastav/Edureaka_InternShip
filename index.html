@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Zomato</title>
     <!-- Css -->
     <link rel="stylesheet" href="Style1.css" />
 
@@ -15,12 +15,16 @@
 
     <!-- icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+     <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="./Images/favicon.ico">
 </head>
 
 <body>
+    
     <header>
         <div class="nav_link">
-            <a href="#" class="aap"><button>Get the app</button></a>
+            <a href="#" class="app"><button><i class="fa fa-mobile" style="font-size:20px; color:rgb(255, 255, 255);"></i> Get the app</button></a>
              <ul>
                 <li><a href="#signup" data-bs-toggle="modal">Sign up</a> </li>
                 <li><a href="#">Investor Login</a></li>
@@ -28,11 +32,12 @@
                 </ul>
         </div>
         <h1 class="name">zomato</h1>
-        <div class="box">
-            <input type="search" id="search" placeholder="Search" />
-        </div>
+        <span class="box">
+            <input type="search"  id="search-location" placeholder="Location">
+            <input type="search" id="search"  placeholder="Search" />
+        </span>
     </header>
-
+   <main>
     <div class="cards">
         <a href="#">
             <div class="wrap" style="background-image: url(./Images/dining\ outside.jpg);">
@@ -82,7 +87,7 @@
             </button>
         </div>
     </div>
-
+</main>
     <footer>
         <div class="zom">Zomato</div>
         <div class="arrange">
